@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Меню</h1>
+    <p id="opisanie">Добро пожаловать! Здесь вы можете ознакомиться с нашим меню!
+    </p>
+    <div id="blok1">
+        <div class="btn">
+            <button id="add0">Добавить</button>
+            <button id="sortByName">Сортировка по названию</button>
+            <button id="sortByPrice">Сортировка по цене</button>
+            <button id="sortByClassPrice">Сортировка по классу и цене</button>
+        </div>
+        <p id="reklama"> Здесь могла быть ваша реклама! тг @Hlimmm</p>
+    </div>  
+    <div id="spisok">
+        <div class="card">
+            <h2 class="nameBludo">Invoker</h2>
+            <img src="https://steamuserimages-a.akamaihd.net/ugc/936066442813785446/E2DA6592B9CA8FDB6F5E8C768EF40B14E8D203DA/?imw=512&amp;imh=288&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true"
+                alt="" class="imgBludo">
+            <p class="classBludo">Support</p>
+            <p class="textBludo"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci maxime
+                delectus numquam labore! Cumque natus pariatur quia eaque, eos corrupti. Facere repellendus nisi esse
+                aliquam placeat corporis explicabo aut. </p>
+            <p class="priceBludo">111111</p>
+        </div>        
+    </div>
+    <div id="footer">
+        <p>место для текста</p>
+    </div>
+
+    <div id="insert0">
+        <h2>Добавление блюда</h2>
+        <p id="addName">Название блюда: <input type="text" id="inputName"></p>
+        <p id="addImg">Ссылка на картинку: <input type="text" id="inputImg"></p>
+        <p id="addClass">Клас блюда: <input type="text" id="inputClass"></p>
+        <p id="addText">Описание блюда: <input type="text" id="inputText"></p>
+        <p id="addPrice">Цена: <input type="text" id="inputPrice"></p>
+        <button id="addBtn">Добавить</button>
+        <button id="cancelBtn">Отмена</button>
+    </div>
+
+    <div id="edit0">
+        <h2>Изменение блюда</h2>
+        <p id="editName">Название блюда: <input type="text" id="inputEditName"></p>
+        <p id="editImg">Ссылка на картинку: <input type="text" id="inputEditImg"></p>
+        <p id="editClass">Клас блюда: <input type="text" id="inputEditClass"></p>
+        <p id="editText">Описание блюда: <input type="text" id="inputEditText"></p>
+        <p id="editprice">Цена: <input type="text" id="inputEditPrice"></p>
+        <button id="editBtn">Ок</button>
+        <button id="cancelEditBtn">Отмена</button>
+    </div>
+
+
+    <div id="menuCard">
+        <button id="menuDel">Удалить</button>
+        <button id="menuEdit">Изменить</button>
+        <button id="menuCancelBtn">Отмена</button>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html>
